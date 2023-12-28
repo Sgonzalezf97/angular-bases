@@ -15,4 +15,9 @@ export class ListComponent {
     power:5000
   }]
 
+  onDeleteCharacter(index):void{
+    // TODO: Emitir el ID del personaje
+    console.log(index)
+  }
+
 }
